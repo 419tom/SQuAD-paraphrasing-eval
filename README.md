@@ -15,14 +15,15 @@ bash !pip install datasets transformers torch spacy
 ## SQuAD Dataset:
 SQuAD (Stanford Question Answering Dataset) can be accessed here: https://rajpurkar.github.io/SQuAD-explorer/
 
-- **Google Drive:** The code uses Google Drive to save and load progress and results.
-  Make sure to mount your Google Drive to Colab before running the code.
-- **GPU:** Using a GPU is recommended for faster inference. 
+
 
 ## Notes: 
 In each .py file, change file paths as neccessary to your GPU or CPU. Google Colabs is highly recommended, since
 files are intermediately saved virtually to save computing power, but it is not mandatory. Code is currently set up for GPU usage. 
-
+- **Google Drive:** The code uses Google Drive to save and load progress and results.
+  Make sure to mount your Google Drive to Colab before running the code.
+- **GPU:** Using a GPU is recommended for faster inference.
+  
 ## Warning: 
 This code has very slow runtimes and so it is recommended to use a validation split of under 1000 for quicker results.
 This will need to be manually adjusted at the input file pipelines. 
