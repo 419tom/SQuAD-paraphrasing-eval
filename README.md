@@ -1,3 +1,14 @@
+## Description: 
+The SQuAD-2.0 dataset is a benchmark dataset used primarily for evaluating LLM reading comprehension tasks through Question-Answer matching.
+The expansion effort of this dataset introduces a task that includes more complex contexts for testing question-prompts on answer extraction tasks. 
+As such, the current dataset includes many unanswerable questions and low-confidence answers. Using a deepset Roberta-base model pre-trained on 
+the SQuAD-2.0 corpus, it is possible to predict potential extractions and observe model confidence in these potential answers. 
+
+This task uses a paraphrasing model to analyze how certain grammatical constructions will lead to improved or worsened model confidence from the pretrained
+RoBERTa-base model. Results show that certain trigram patterns, as they appear in the paraphrased questions, either improve or worsen answer predictability. 
+This tasks purpose is to understand what structural grammatical patterns are preferred as prompt input by LLMs. 
+
+
 ## Prerequisites:
 
 - **Libraries:** The following libraries are required:
