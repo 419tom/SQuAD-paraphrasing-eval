@@ -1,4 +1,4 @@
-## Prerequisites
+## Prerequisites:
 
 - **Libraries:** The following libraries are required:
     - `datasets`
@@ -21,7 +21,7 @@ In each .py file, change file paths as neccessary to your GPU or CPU. Google Col
 files are intermediately saved virtually to save computing power, but it is not mandatory. Code is currently set up for GPU usage. 
 
 ## Warning: 
-This code has very slow runtimes and so it is reccomended to use a validation split of under 1000 for quicker results.
+This code has very slow runtimes and so it is recommended to use a validation split of under 1000 for quicker results.
 This will need to be manually adjusted at the input file pipelines. 
 
 
