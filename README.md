@@ -12,6 +12,9 @@
 
 bash !pip install datasets transformers torch spacy
 
+## SQuAD Dataset:
+SQuAD (Stanford Question Answering Dataset) can be accessed here: https://rajpurkar.github.io/SQuAD-explorer/
+
 - **Google Drive:** The code uses Google Drive to save and load progress and results.
   Make sure to mount your Google Drive to Colab before running the code.
 - **GPU:** Using a GPU is recommended for faster inference. 
